@@ -1,0 +1,90 @@
+STORES_SALES_FORECASTING
+
+
+ Objective
+
+The goal of this project is to predict future sales using past sales data.
+This helps businesses plan:
+
+Inventory
+
+Stock levels
+
+Budget
+
+Staffing
+
+Profit targets
+
+
+Dataset
+
+The dataset contains:
+
+Date → day of sales
+
+Sales → total sales amount
+
+
+ Steps Performed
+1. Data Loading
+
+Loaded the CSV file into Python using pandas.
+
+2. Data Cleaning
+
+Removed missing values
+
+Cleaned column names
+
+Converted Date into datetime format
+
+3. Aggregation
+
+Grouped daily sales into monthly/weekly totals.
+
+4. Trend Visualization
+
+Plotted sales over time to see increase or decrease patterns.
+
+5. Seasonality Check
+
+Used rolling mean to understand repeating patterns.
+
+6. Train-Test Split
+
+80% data for training
+
+20% data for testing
+
+This helps test model accuracy properly.
+
+7. Model Building
+
+Used Exponential Smoothing model to forecast sales.
+
+8. Forecasting
+
+Predicted future sales values.
+
+9. Evaluation
+
+Calculated:
+
+MAE → error in units
+
+MAPE → error in percentage
+
+Lower values mean better performance.
+
+10. Export
+
+Saved forecast results into CSV file.
+
+ Results
+
+Sales trend identified clearly
+
+Model predicted future sales successfully
+
+Forecast closely matches actual sales
